@@ -17,8 +17,10 @@
 
 * https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge.txt
 
-* https://github.com/alanbobs999/TopFreeProxies
-
 * https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free
 
 * https://d1.mk/freev2 
+
+**其他仓库**
+
+* https://github.com/alanbobs999/TopFreeProxies
