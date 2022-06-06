@@ -24,3 +24,10 @@
 **其他仓库**
 
 * https://github.com/alanbobs999/TopFreeProxies
+
+
+**HOST**
+
+修改host文件，提升访问速度
+
+* GITHUB https://raw.githubusercontent.com/ineo6/hosts/master/hosts
