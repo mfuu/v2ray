@@ -31,3 +31,4 @@
 修改host文件，提升访问速度
 
 * GITHUB https://raw.githubusercontent.com/ineo6/hosts/master/hosts
+* Google https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts
