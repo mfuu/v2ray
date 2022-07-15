@@ -19,7 +19,7 @@
 
 * https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free
 
-* https://d1.mk/freev2 
+* https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity
 
 **其他仓库**
 
