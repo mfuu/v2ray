@@ -7,6 +7,7 @@ from io import BytesIO
 from urllib import request
 
 list_path = './list.json'
+merge_path = './merge'
 export_path = './list'
 
 
@@ -15,7 +16,7 @@ class merge():
   def geoip_update(url):
     print('Downloading Country.mmdb...')
     try:
-        request.urlretrieve(url, './utils/Country.mmdb')
+        request.urlretrieve(url, './scripts/Country.mmdb')
         print('Success!\n')
     except Exception:
         print('Failed!\n')
@@ -51,14 +52,30 @@ class merge():
       elif content != None:
         content_list.append(content)
         file = open(f'{export_path}{ids:0>2d}.txt', 'w+', encoding='utf-8')
-        file.write('url 解析错误')
+        file.write('Url 解析错误')
         file.close()
         print(f'Writing content of {remark} to {ids:0>2d}.txt\n')
       else:
         file = open(f'{export_path}{ids:0>2d}.txt', 'w+', encoding='utf-8')
-        file.write('url 订阅内容无法解析')
+        file.write('Url 订阅内容无法解析')
         file.close()
         print(f'Writing error of {remark} to {ids:0>2d}.txt\n')
+    print('Merging nodes...\n')
+    content_raw = ''.join(content_list) # https://python3-cookbook.readthedocs.io/zh_CN/latest/c02/p14_combine_and_concatenate_strings.html
+    content_yaml = convert.main(content_raw,'content','YAML',{'dup_rm_enabled': False, 'format_name_enabled': True})
+    content_base64 = convert.base64_encode(content_raw)
+    content = content_raw
+
+    def content_write(file, output_type):
+      file = open(file, 'w+', encoding = 'utf-8')
+      file.write(output_type)
+      file.close
+    
+    write_list = [f'{merge_path}/merge.txt', f'{merge_path}/merge_base64.txt', f'{merge_path}/merge_yaml.yml']
+    content_type = (content, content_base64, content_yaml)
+    for index in range(len(write_list)):
+      content_write(write_list[index], content_type[index])
+    print('Done!\n')
 
   # 将 list.json Url 内容读取为列表
   def read_as_list(file_path, remote = False):
