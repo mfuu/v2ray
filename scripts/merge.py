@@ -50,12 +50,12 @@ class merge():
         print(f'Writing error of {remark} to {ids:0>2d}.txt\n')
       elif content != None:
         content_list.append(content)
-        file = open(f'{export_path}{ids:0>2d}.txt', 'W+', encoding='utf-8')
+        file = open(f'{export_path}{ids:0>2d}.txt', 'w+', encoding='utf-8')
         file.write('url 解析错误')
         file.close()
         print(f'Writing content of {remark} to {ids:0>2d}.txt\n')
       else:
-        file = open(f'{export_path}{ids:0>2d}.txt', 'W+', encoding='utf-8')
+        file = open(f'{export_path}{ids:0>2d}.txt', 'w+', encoding='utf-8')
         file.write('url 订阅内容无法解析')
         file.close()
         print(f'Writing error of {remark} to {ids:0>2d}.txt\n')
