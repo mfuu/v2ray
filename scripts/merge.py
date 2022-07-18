@@ -62,7 +62,7 @@ class merge():
 
   # 将 list.json Url 内容读取为列表
   def read_as_list(file_path, remote = False):
-    with open(file_path, 'r', encoding='uft-8') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
       raw_list = json.load(f)
     input_list = []
     for index in range(len(raw_list)):
