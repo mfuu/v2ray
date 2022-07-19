@@ -8,24 +8,28 @@
   {
     "id": 2,
     "remark": "freefq/v2",
-    "url": "https://raw.fastgit.org/freefq/free/master/v2",
+    "site": "https://github.com/freefq/free",
+    "url": "https://raw.githubusercontent.com/freefq/free/master/v2",
     "enabled": true
   },
   {
     "id": 3,
-    "remark": "aiboboxx/v2",
+    "remark": "aiboboxx/v2rayfree",
+    "site": "https://github.com/aiboboxx/v2rayfree",
     "url": "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
     "enabled": true
   },
   {
     "id": 4,
-    "remark": "colatiger/v2ray-nodes/proxy",
-    "url": "https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md",
+    "remark": "colatiger/v2ray-nodes",
+    "site": "https://github.com/colatiger/v2ray-nodes",
+    "url": "https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/proxy.md",
     "enabled": true
   },
   {
     "id": 5,
-    "remark": "TopFreeProxies/master/Eternity",
+    "remark": "alanbobs999/TopFreeProxies",
+    "site": "https://github.com/alanbobs999/TopFreeProxies",
     "url": "https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity",
     "enabled": true
   }

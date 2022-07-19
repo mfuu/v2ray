@@ -58,6 +58,7 @@ class convert():
                 return '订阅内容解析错误'
         else:
             return '订阅内容解析错误'
+
     def format(sub_content,output=False): # 对链接文本(Base64, url, YAML)进行格式化处理, 输出节点的配置字典（Clash 配置）, output 为真是输出 YAML 文本
         if '</b>' not in sub_content:
             if 'proxies:' not in sub_content: # 对 URL 内容进行格式化处理
@@ -188,6 +189,7 @@ class convert():
         else:
             print('订阅内容解析错误')
             return '订阅内容解析错误'
+            
     def makeup(input, dup_rm_enabled=False, format_name_enabled=False): # 输入节点配置字典, 对节点进行区域的筛选和重命名，输出 YAML 文本 
         # 区域判断(Clash YAML): https://blog.csdn.net/CSDN_duomaomao/article/details/89712826 (ip-api)
         if isinstance(input, dict):
@@ -593,6 +595,7 @@ class convert():
         except Exception as err:
             print(f'yaml decode 发生 {err} 错误')
             return '订阅内容解析错误'
+
     def base64_decode(url_content): # Base64 转换为 URL 链接内容
         if '-' in url_content:
             url_content = url_content.replace('-', '+')
