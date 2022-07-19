@@ -47,7 +47,7 @@ jobs:
         git config --local user.name "GitHub Actions"
         git pull origin master
         git add ./merge
-        git add README.md
+        git add v2ray.txt
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
     - name: 推送更改
       uses:  ad-m/github-push-action@master
