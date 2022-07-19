@@ -75,6 +75,7 @@ class merge():
     content_type = (content, content_base64, content_yaml)
     for index in range(len(write_list)):
       content_write(write_list[index], content_type[index])
+    content_write(f'./v2ray.txt', content_base64) # 根目录订阅文件写入
     print('Done!\n')
 
   # 将 list.json Url 内容读取为列表
