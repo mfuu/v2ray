@@ -1,14 +1,22 @@
-## free v2ray nodes
+## Free v2ray Nodes
 
 **该仓库仅对部分节点内容做了整合，具体内容参考 `list.json` 文件配置**
 
-**订阅链接：`https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray`**
+**订阅链接：**
+```
+https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
+```
 
-**国内镜像：`https://gitee.com/mfuu/v2ray/raw/master/v2ray`**
+**国内镜像：**
+```
+https://gitee.com/mfuu/v2ray/raw/master/v2ray
+```
 
+**v2rayN使用教程：[v2rayN](https://github.com/freefq/tutorials)**
+
+## 免费节点
 
 ### 比较稳定的节点
-
 
 * https://freev2ray.netlify.com/
 
@@ -34,10 +42,10 @@
 
 * https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free
 
+
 ### 其他仓库
 
 * https://github.com/alanbobs999/TopFreeProxies
-
 
 ## HOST
 
