@@ -8,7 +8,8 @@ name: CI
 on:
   schedule:
     # Executed at 5:00, 19:00 o'clock every day
-    - cron:  '0 5,19 * * *'
+    # 表达式生成  https://crontab.guru/
+    - cron:  '0 3,9,15,21 * * *'
 
   workflow_dispatch:
 
@@ -30,7 +31,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pip-
     - name: 设置时区
-      run: sudo timedatectl set-timezone 'Asia/Chongqing'
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: 安装依赖
       run: |
         pip install -r ./requirements.txt
