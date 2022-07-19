@@ -2,7 +2,7 @@
 
 **该仓库仅对部分节点内容做了整合，具体内容参考 `list.json` 文件配置**
 
-**订阅链接：`https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray.txt`**
+**订阅链接：`https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray`**
 
 ### 比较稳定的节点
 
