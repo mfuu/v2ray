@@ -4,6 +4,9 @@
 
 **订阅链接：`https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray`**
 
+**国内镜像：`https://gitee.com/mfuu/v2ray/raw/master/v2ray`**
+
+
 ### 比较稳定的节点
 
 
