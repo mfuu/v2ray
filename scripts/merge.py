@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from convert import convert
+from update import update
 
 import re, json, os
 from io import BytesIO
@@ -23,7 +24,7 @@ class merge():
         pass
 
   # 将转换后的所有 Url 链接内容合并转换 YAML or Base64, ，并输出文件，输入订阅列表。
-  def merge(url_list):
+  def main(url_list):
     content_list = []
     for t in os.walk(export_path):
       for f in t[2]:
@@ -95,8 +96,9 @@ class merge():
 
 
 if __name__ == '__main__':
+  update.main()
   merge.geoip_update('https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb')
 
   list = merge.read_as_list(list_path)
   list_remote = merge.read_as_list(list_path, True)
-  merge.merge(list_remote)
+  merge.main(list_remote)
