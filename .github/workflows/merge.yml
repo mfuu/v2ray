@@ -49,6 +49,7 @@ jobs:
         git pull origin master
         git add ./merge
         git add v2ray
+        git add list.json
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
     - name: 推送更改
       uses:  ad-m/github-push-action@master
