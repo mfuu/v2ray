@@ -20,19 +20,17 @@ https://gitee.com/mfuu/v2ray/raw/master/v2ray
 
 * https://freev2ray.netlify.com/
 
-* https://raw.fastgit.org/freefq/free/master/v2
+* https://raw.githubusercontent.com/freefq/free/master/v2
 
 * https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
 
-* https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md
+* https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/proxy.md
 
 * https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity
 
 ### 其他节点
 
 * https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
-
-* https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fjiang.netlify.app&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
 
 * https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt 
 
@@ -41,6 +39,8 @@ https://gitee.com/mfuu/v2ray/raw/master/v2ray
 * https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge.txt
 
 * https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free
+
+* https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fjiang.netlify.app&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
 
 
 ### 其他仓库
