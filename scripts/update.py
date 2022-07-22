@@ -34,9 +34,9 @@ class update():
             id = item['id']
             current_url = item['url']
             try:
-                if item['update_date'] == True:
+                if item['update']:
                     print(f'Finding available update for ID{id}')
-                    new_url = update.change_date(id,current_url)
+                    new_url = update.change_date(id,current_url,item['update'])
                     if new_url == current_url:
                         print(f'No available update for ID{id}\n')
                     else:
@@ -50,13 +50,22 @@ class update():
             file.write(updated_list)
             file.close()
 
-    # 更新 url 最后一个 / 后的日期，比如 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0000.txt 中的 0000
-    def change_date(id,current_url):
-        today = datetime.today().strftime('%m%d')
-        url_front = current_url[0:current_url.rfind('/', 1) + 1]
-        url_end = current_url.split('/')[-1].split('.')[-1]
-        new_url = url_front + today + '.' + url_end
+    # 更新 url '/' 后的日期，比如 https://xxxx.com/master/YYYYmmdd/mmdd.txt 中的 mmdd 或者 YYYYmmdd/mmdd
+    def change_date(id,current_url,format):
 
+        date_list = [] # [YYYYmmdd, mmdd]
+        len = len(format.split('/'))
+        for fmat in format.split('/'):
+            date_list.append('%'+fmat.replace('-','%'))
+        format_date = '/'.join(date_list) # YYYYmmdd/mmdd
+        # url_front = current_url[0:current_url.rfind('/', 1) + 1]
+        url_end = current_url.split('/')[-1].split('.')[-1]
+        url_list = current_url.split('/')
+        for i in range(0, len):
+            url_list.pop()
+
+        new_url = ''.join(url_list) + '/' + format_date + '.' + url_end
+        
         if url_updated(new_url):
             return new_url
         else:
