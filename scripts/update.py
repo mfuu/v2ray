@@ -54,14 +54,14 @@ class update():
     def change_date(id,current_url,format):
 
         date_list = [] # [YYYYmmdd, mmdd]
-        len = len(format.split('/'))
+        length = len(format.split('/'))
         for fmat in format.split('/'):
             date_list.append('%'+fmat.replace('-','%'))
         format_date = '/'.join(date_list) # YYYYmmdd/mmdd
         # url_front = current_url[0:current_url.rfind('/', 1) + 1]
         url_end = current_url.split('/')[-1].split('.')[-1]
         url_list = current_url.split('/')
-        for i in range(0, len):
+        for i in range(0, length):
             url_list.pop()
 
         new_url = ''.join(url_list) + '/' + format_date + '.' + url_end
