@@ -56,7 +56,7 @@ class update():
         date_list = [] # [YYYYmmdd, mmdd]
         length = len(format.split('/'))
         for fmat in format.split('/'):
-            date_list.append('%'+fmat.replace('-','%'))
+            date_list.append(datetime.today().strftime('%'+fmat.replace('-','%')))
         format_date = '/'.join(date_list) # YYYYmmdd/mmdd
         # url_front = current_url[0:current_url.rfind('/', 1) + 1]
         url_end = current_url.split('/')[-1].split('.')[-1]
