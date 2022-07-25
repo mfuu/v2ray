@@ -61,11 +61,11 @@ class update():
         # url_front = current_url[0:current_url.rfind('/', 1) + 1]
         url_end = current_url.split('/')[-1].split('.')[-1]
         url_list = current_url.split('/')
-        for i in range(0, length):
+        for i in range(0, length - 1):
             url_list.pop()
 
-        print(f'The url:{current_url} s date changed to {format_date}')
         new_url = ''.join(url_list) + '/' + format_date + '.' + url_end
+        print(f'The url:{current_url} changed to {new_url}')
         
         if url_updated(new_url):
             return new_url
