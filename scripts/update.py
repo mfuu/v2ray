@@ -64,6 +64,7 @@ class update():
         for i in range(0, length):
             url_list.pop()
 
+        print(f'The url:{current_url} s date changed to {format_date}')
         new_url = ''.join(url_list) + '/' + format_date + '.' + url_end
         
         if url_updated(new_url):
