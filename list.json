@@ -19,7 +19,7 @@
     "id": 2,
     "remark": "netlify",
     "url": "https://freev2ray.netlify.com",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 3,
