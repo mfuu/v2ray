@@ -48,5 +48,12 @@
     "site": "https://github.com/alanbobs999/TopFreeProxies",
     "url": "https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity",
     "enabled": true
+  },
+  {
+    "id": 7,
+    "remark": "v2ray-links",
+    "site": "https://github.com/v2ray-links/v2ray-free",
+    "url": "https://raw.fastgit.org/v2ray-links/v2ray-free/master/v2ray",
+    "enabled": true
   }
 ]
