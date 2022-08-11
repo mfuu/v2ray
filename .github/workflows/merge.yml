@@ -42,15 +42,21 @@ jobs:
         chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
         python ./scripts/merge.py
       
-    - name: 提交更改
+    - name: 提交变更
       run: |                 
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull origin master
         git add ./merge
         git add v2ray
+        git commit -m "merge: $(date '+%Y-%m-%d %H:%M:%S') 合并节点"
+    - name: 提交列表变更
+      run: |                 
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git pull origin master
         git add list.json
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
+        git commit -m "update: $(date '+%Y-%m-%d %H:%M:%S') 更新链接"
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
