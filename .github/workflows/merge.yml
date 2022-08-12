@@ -56,7 +56,7 @@ jobs:
         branch: master
     - name: 提交链接
       run: |                 
-        if [ -e list.json ]; then
+        if [ -n "$(git status -s)" ]; then
           git pull origin master
           git add list.json
           git commit -m "update: $(date '+%Y-%m-%d %H:%M:%S') 更新链接"
