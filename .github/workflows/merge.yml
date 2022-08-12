@@ -56,12 +56,13 @@ jobs:
         branch: master
     - name: 提交链接
       run: |                 
-        if [ -n "$(git status -s)" ]; then
+        if [ -z "$(git status --porcelain)" ]
+        then
+          echo "链接无更新"
+        else
           git pull origin master
           git add list.json
           git commit -m "update: $(date '+%Y-%m-%d %H:%M:%S') 更新链接"
-        else
-          echo "链接无更新"
         fi
     - name: 推送链接
       uses:  ad-m/github-push-action@master
