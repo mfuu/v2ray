@@ -56,9 +56,12 @@ jobs:
         branch: master
     - name: 提交链接更改
       run: |                 
-        git pull origin master
-        git add list.json
-        git commit -m "update: $(date '+%Y-%m-%d %H:%M:%S') 更新链接"
+        if [ -e list.json ]; then
+          git pull origin master
+          git add list.json
+          git commit -m "update: $(date '+%Y-%m-%d %H:%M:%S') 更新链接"
+        else
+          echo "链接无更新"
     - name: 推送链接更改
       uses:  ad-m/github-push-action@master
       with:
