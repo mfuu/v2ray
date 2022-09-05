@@ -38,35 +38,35 @@
   },
   {
     "id": 5,
-    "remarks": "learnhard-cn/free_proxy_ss",
+    "remark": "learnhard-cn/free_proxy_ss",
     "site": "https://github.com/learnhard-cn/free_proxy_ss",
     "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
     "enabled": true
   },
   {
     "id": 6,
-    "remarks": "kxswa/k",
+    "remark": "kxswa/k",
     "site": "https://github.com/kxswa/k",
     "url": "https://raw.githubusercontent.com/kxswa/k/k/v2ray",
     "enabled": false
   },
   {
     "id": 7,
-    "remarks": "Pawdroid/Free-servers",
+    "remark": "Pawdroid/Free-servers",
     "site": "https://github.com/Pawdroid/Free-servers",
     "url": "https://shadowshare.v2cross.com/publicserver/servers/temp/jQqN9g1f3lA0apTh",
     "enabled": true
   },
   {
     "id": 8,
-    "remarks": "anaer/Sub",
+    "remark": "anaer/Sub",
     "site": "https://github.com/anaer/Sub",
     "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
     "enabled": false
   },
   {
     "id": 9,
-    "remarks": "wrfree/free",
+    "remark": "wrfree/free",
     "site": "https://github.com/wrfree/free",
     "url": "https://raw.githubusercontent.com/wrfree/free/main/v2",
     "enabled": true
