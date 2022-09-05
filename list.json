@@ -1,6 +1,14 @@
 [
   {
-    "id": 0,
+    "id": 1,
+    "remark": "nodefree.org",
+    "site": "nodefree.org",
+    "url": "https://nodefree.org/dy/202209/20220904.txt",
+    "update": "Y-m/Y-m-d",
+    "enabled": true
+  },
+  {
+    "id": 1,
     "remark": "pojiezhiyuanjun/freev2",
     "site": "https://github.com/pojiezhiyuanjun/freev2",
     "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0905.txt",
@@ -8,52 +16,59 @@
     "enabled": true
   },
   {
-    "id": 1,
-    "remark": "",
-    "site": "nodefree.org",
-    "url": "https://nodefree.org/dy/202209/20220904.txt",
-    "update": "Y-m/Y-m-d",
+    "id": 2,
+    "remarks": "xiyaowong/freeFQ",
+    "site": "https://github.com/xiyaowong/freeFQ",
+    "url": "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
     "enabled": true
   },
   {
-    "id": 2,
-    "remark": "netlify",
-    "url": "https://freev2ray.netlify.com",
-    "enabled": false
-  },
-  {
     "id": 3,
-    "remark": "freefq/v2",
+    "remark": "freefq/free",
     "site": "https://github.com/freefq/free",
     "url": "https://raw.githubusercontent.com/freefq/free/master/v2",
     "enabled": true
   },
   {
     "id": 4,
-    "remark": "aiboboxx/v2rayfree",
-    "site": "https://github.com/aiboboxx/v2rayfree",
-    "url": "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
-    "enabled": true
-  },
-  {
-    "id": 5,
-    "remark": "colatiger/v2ray-nodes",
-    "site": "https://github.com/colatiger/v2ray-nodes",
-    "url": "https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/proxy.md",
-    "enabled": true
-  },
-  {
-    "id": 6,
     "remark": "alanbobs999/TopFreeProxies",
     "site": "https://github.com/alanbobs999/TopFreeProxies",
     "url": "https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity",
     "enabled": true
   },
   {
+    "id": 5,
+    "remarks": "learnhard-cn/free_proxy_ss",
+    "site": "https://github.com/learnhard-cn/free_proxy_ss",
+    "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
+    "enabled": true
+  },
+  {
+    "id": 6,
+    "remarks": "kxswa/k",
+    "site": "https://github.com/kxswa/k",
+    "url": "https://raw.githubusercontent.com/kxswa/k/k/v2ray",
+    "enabled": false
+  },
+  {
     "id": 7,
-    "remark": "v2ray-links",
-    "site": "https://github.com/v2ray-links/v2ray-free",
-    "url": "https://raw.fastgit.org/v2ray-links/v2ray-free/master/v2ray",
+    "remarks": "Pawdroid/Free-servers",
+    "site": "https://github.com/Pawdroid/Free-servers",
+    "url": "https://shadowshare.v2cross.com/publicserver/servers/temp/jQqN9g1f3lA0apTh",
+    "enabled": true
+  },
+  {
+    "id": 8,
+    "remarks": "anaer/Sub",
+    "site": "https://github.com/anaer/Sub",
+    "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
+    "enabled": false
+  },
+  {
+    "id": 9,
+    "remarks": "wrfree/free",
+    "site": "https://github.com/wrfree/free",
+    "url": "https://raw.githubusercontent.com/wrfree/free/main/v2",
     "enabled": true
   }
 ]
