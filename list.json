@@ -48,21 +48,21 @@
     "remark": "kxswa/k",
     "site": "https://github.com/kxswa/k",
     "url": "https://raw.githubusercontent.com/kxswa/k/k/v2ray",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 7,
     "remark": "Pawdroid/Free-servers",
     "site": "https://github.com/Pawdroid/Free-servers",
     "url": "https://shadowshare.v2cross.com/publicserver/servers/temp/jQqN9g1f3lA0apTh",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 8,
     "remark": "anaer/Sub",
     "site": "https://github.com/anaer/Sub",
     "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 9,

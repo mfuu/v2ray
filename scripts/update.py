@@ -67,8 +67,6 @@ class update():
         new_url = '/'.join(url_list) + '/' + format_date + '.' + url_end
         
         if url_updated(new_url):
-            print(f'The url:{current_url} changed to {new_url}')
             return new_url
         else:
-            print(f'The url:{current_url} no need to change')
             return current_url
