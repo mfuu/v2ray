@@ -49,7 +49,7 @@ https://gitee.com/mfuu/v2ray/raw/master/v2ray
 
 ## HOST
 
-修改host文件，提升访问速度
+修改host文件，提升访问速度，推荐使用 [SwitchHosts](https://github.com/oldj/SwitchHosts)
 
 * GITHUB https://raw.githubusercontent.com/ineo6/hosts/master/hosts
 * Google https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts
