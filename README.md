@@ -40,8 +40,6 @@ https://gitee.com/mfuu/v2ray/raw/master/v2ray
 
 * https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free
 
-* https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fjiang.netlify.app&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
-
 
 ### 其他仓库
 
