@@ -36,8 +36,6 @@ https://gitee.com/mfuu/v2ray/raw/master/v2ray
 
 * https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
 
-* https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge.txt
-
 * https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free
 
 
