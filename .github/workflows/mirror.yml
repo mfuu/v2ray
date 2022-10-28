@@ -12,7 +12,7 @@ jobs:
         uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url: git@gitee.com:mfuu/v2ray.git
-          ssh_private_key: ${{ secrets.GITEE_KEY }}
+          ssh_private_key: ${{ secrets.MIRROR }}
           
   to_gitlab:
     runs-on: ubuntu-latest
@@ -23,4 +23,4 @@ jobs:
         uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url: git@gitlab.com:mfuu/v2ray.git
-          ssh_private_key: ${{ secrets.GITLAB_KEY }}
+          ssh_private_key: ${{ secrets.MIRROR }}
