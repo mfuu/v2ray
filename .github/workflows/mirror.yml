@@ -1,6 +1,6 @@
 name: 'Github Actions Mirror'
 
-on: [push, delete]
+on: [push, merge_group, delete]
 
 jobs:
   to_gitee:
