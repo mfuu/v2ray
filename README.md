@@ -15,10 +15,6 @@ https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 https://gitlab.com/mfuu/v2ray/-/raw/master/v2ray
 ```
 
-```
-https://gitee.com/mfuu/v2ray/raw/master/v2ray
-```
-
 ## 免费节点
 
 ### 比较稳定的节点
