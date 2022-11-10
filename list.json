@@ -17,65 +17,72 @@
   },
   {
     "id": 2,
-    "remark": "xiyaowong/freeFQ",
-    "site": "https://github.com/xiyaowong/freeFQ",
-    "url": "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
-    "enabled": true
-  },
-  {
-    "id": 3,
     "remark": "freefq/free",
     "site": "https://github.com/freefq/free",
     "url": "https://raw.githubusercontent.com/freefq/free/master/v2",
     "enabled": true
   },
   {
-    "id": 4,
-    "remark": "alanbobs999/TopFreeProxies",
-    "site": "https://github.com/alanbobs999/TopFreeProxies",
-    "url": "https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity",
+    "id": 3,
+    "remark": "colatiger/v2ray-nodes",
+    "site": "https://github.com/colatiger/v2ray-nodes",
+    "url": "https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/huwo_v2ray.md",
     "enabled": true
   },
   {
-    "id": 5,
+    "id": 4,
     "remark": "learnhard-cn/free_proxy_ss",
     "site": "https://github.com/learnhard-cn/free_proxy_ss",
     "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
     "enabled": true
   },
   {
-    "id": 6,
+    "id": 5,
     "remark": "kxswa/k",
     "site": "https://github.com/kxswa/k",
     "url": "https://raw.githubusercontent.com/kxswa/k/k/v2ray",
     "enabled": true
   },
   {
-    "id": 7,
+    "id": 6,
     "remark": "Pawdroid/Free-servers",
     "site": "https://github.com/Pawdroid/Free-servers",
     "url": "https://github.com/Pawdroid/Free-servers/blob/main/sub",
     "enabled": true
   },
   {
-    "id": 8,
+    "id": 7,
     "remark": "anaer/Sub",
     "site": "https://github.com/anaer/Sub",
     "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-    "enabled": true
+    "enabled": false
+  },
+  {
+    "id": 8,
+    "remark": "alanbobs999/TopFreeProxies",
+    "site": "https://github.com/alanbobs999/TopFreeProxies",
+    "url": "https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity",
+    "enabled": false
   },
   {
     "id": 9,
-    "remark": "wrfree/free",
-    "site": "https://github.com/wrfree/free",
-    "url": "https://raw.githubusercontent.com/wrfree/free/main/v2",
-    "enabled": true
-  },
-  {
-    "id": 10,
     "remark": "Jsnzkpg/Jsnzkpg",
     "site": "https://github.com/Jsnzkpg/Jsnzkpg",
     "url": "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
-    "enabled": true
+    "enabled": false
+  },
+  {
+    "id": 10,
+    "remark": "wrfree/free",
+    "site": "https://github.com/wrfree/free",
+    "url": "https://raw.githubusercontent.com/wrfree/free/main/v2",
+    "enabled": false
+  },
+  {
+    "id": 11,
+    "remark": "xiyaowong/freeFQ",
+    "site": "https://github.com/xiyaowong/freeFQ",
+    "url": "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
+    "enabled": false
   }
 ]
