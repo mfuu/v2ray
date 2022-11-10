@@ -84,5 +84,12 @@
     "site": "https://github.com/xiyaowong/freeFQ",
     "url": "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
     "enabled": false
+  },
+  {
+    "id": 12,
+    "remark": "aiboboxx/v2rayfree",
+    "site": "https://github.com/aiboboxx/v2rayfree",
+    "url": "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
+    "enabled": false
   }
 ]
