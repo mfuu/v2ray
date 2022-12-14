@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from convert import sub_convert
-from update import sub_update
+from sub_convert import convert
+from sub_update import update
 
 import re, json, os
 from io import BytesIO
