@@ -6,7 +6,7 @@ import requests
 from requests.adapters import HTTPAdapter
 
 # 文件路径定义
-list_path = './merge/list.json'
+list_path = './list.json'
 
 with open(list_path, 'r', encoding='utf-8') as f: # 载入订阅链接
     raw_list = json.load(f)

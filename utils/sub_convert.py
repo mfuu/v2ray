@@ -653,15 +653,3 @@ class convert():
                 sub_content = resp.text
 
         return sub_content
-
-
-if __name__ == '__main__':
-    subscribe = 'https://fastly.jsdelivr.net/gh/alanbobs999/TopFreeProxies@master/sub/sub_merge.txt'
-    output_path = './output.txt'
-
-    content = convert.main(subscribe, 'url', 'YAML')
-
-    file = open(output_path, 'w', encoding= 'utf-8')
-    file.write(content)
-    file.close()
-    print(f'Writing content to output.txt\n')

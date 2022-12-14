@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
-from convert import convert
-from update import update
+from convert import sub_convert
+from update import sub_update
 
 import re, json, os
 from io import BytesIO
 from urllib import request
 
-list_path = './merge/list.json'
+list_path = './list.json'
 merge_path = './merge'
 export_path = './list'
 
