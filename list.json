@@ -26,7 +26,7 @@
     "id": 3,
     "remark": "colatiger/v2ray-nodes",
     "site": "https://github.com/colatiger/v2ray-nodes",
-    "url": "https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/huwo_v2ray.md",
+    "url": "https://proxy.huwo.club/v2ray.txt",
     "enabled": true
   },
   {
@@ -80,13 +80,6 @@
   },
   {
     "id": 11,
-    "remark": "xiyaowong/freeFQ",
-    "site": "https://github.com/xiyaowong/freeFQ",
-    "url": "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
-    "enabled": false
-  },
-  {
-    "id": 12,
     "remark": "aiboboxx/v2rayfree",
     "site": "https://github.com/aiboboxx/v2rayfree",
     "url": "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
