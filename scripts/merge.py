@@ -7,7 +7,7 @@ import re, json, os
 from io import BytesIO
 from urllib import request
 
-list_path = './list.json'
+list_path = './merge/list.json'
 merge_path = './merge'
 export_path = './list'
 
@@ -63,7 +63,7 @@ class merge():
         print(f'Writing error of {remark} to {ids:0>2d}.txt\n')
     print('Merging nodes...\n')
     content_raw = ''.join(content_list) # https://python3-cookbook.readthedocs.io/zh_CN/latest/c02/p14_combine_and_concatenate_strings.html
-    content_yaml = convert.main(content_raw,'content','YAML',{'dup_rm_enabled': False, 'format_name_enabled': True})
+    content_clash = convert.main(content_raw,'content','YAML',{'dup_rm_enabled': False, 'format_name_enabled': True})
     content_base64 = convert.base64_encode(content_raw)
     content = content_raw
 
@@ -72,11 +72,13 @@ class merge():
       file.write(output_type)
       file.close
     
-    write_list = [f'{merge_path}/merge.txt', f'{merge_path}/merge_base64.txt', f'{merge_path}/merge_yaml.yml']
-    content_type = (content, content_base64, content_yaml)
+    write_list = [f'{merge_path}/merge.txt', f'{merge_path}/merge_base64.txt', f'{merge_path}/merge_clash.yaml']
+    content_type = (content, content_base64, content_clash)
     for index in range(len(write_list)):
       content_write(write_list[index], content_type[index])
+
     content_write(f'./v2ray', content_base64) # 根目录订阅文件写入
+    content_write(f'./clash.yaml', content_clash)
     print('Done!\n')
 
   # 将 list.json Url 内容读取为列表

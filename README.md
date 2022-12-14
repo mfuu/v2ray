@@ -1,20 +1,28 @@
 ## V2ray-Nodes
-**该仓库仅对部分节点内容做了整合，避免重复添加链接。每6个小时自动更新，节点内容参考 `list.json`**
+**该仓库仅对部分节点内容做了整合，避免重复添加链接。每6个小时自动更新，节点内容参考 `merge/list.json`**
 
 |  工具  | Android  | Windows  |  
 |  ----  | ----   | ----  |  
 | v2ray  | [v2rayNG](https://github.com/2dust/v2rayNG/releases/download/1.6.28/v2rayNG_1.6.28_arm64-v8a.apk) | [v2rayN](https://github.com/2dust/v2rayN/releases/download/3.27/v2rayN-Core.zip) |  
 
 **订阅链接：**
-```
-https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
-```
+
+* v2ray
+`https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray`
+
+* clash
+`https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml`
+
 
 **镜像：**
 
-```
-https://gitlab.com/mfuu/v2ray/-/raw/master/v2ray
-```
+
+* v2ray
+`https://gitlab.com/mfuu/v2ray/-/raw/master/v2ray`
+
+* clash
+`https://gitlab.com/mfuu/v2ray/-/raw/master/clash.yaml`
+
 
 **参考仓库**
 
