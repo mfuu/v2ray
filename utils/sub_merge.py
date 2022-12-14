@@ -17,7 +17,7 @@ class merge():
   def geoip_update(url):
     print('Downloading Country.mmdb...')
     try:
-        request.urlretrieve(url, './scripts/Country.mmdb')
+        request.urlretrieve(url, './utils/Country.mmdb')
         print('Success!\n')
     except Exception:
         print('Failed!\n')

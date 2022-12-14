@@ -302,7 +302,7 @@ class convert():
                     except Exception:
                         ip = server
 
-                with geoip2.database.Reader('./scripts/Country.mmdb') as ip_reader:
+                with geoip2.database.Reader('./utils/Country.mmdb') as ip_reader:
                     try:
                         response = ip_reader.country(ip)
                         country_code = response.country.iso_code
