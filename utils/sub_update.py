@@ -50,14 +50,14 @@ class update():
             file.write(updated_list)
             file.close()
 
-    # 更新 url '/' 后的日期，比如 https://xxxx.com/master/YYYYmmdd/mmdd.txt 中的 mmdd 或者 YYYYmmdd/mmdd
+    # 更新 url '/' 后的日期，比如 https://xxxx.com/master/YYYY/mm/YYYYmmdd.txt 中的 YYYY/mm/YYYYmmdd
     def change_date(id,current_url,format):
 
-        date_list = [] # [YYYYmmdd, mmdd]
+        date_list = [] # [YYYY, mm, YYYYmmdd]
         length = len(format.split('/'))
         for fmat in format.split('/'):
             date_list.append(datetime.today().strftime('%'+fmat.replace('-','%')))
-        format_date = '/'.join(date_list) # YYYYmmdd/mmdd
+        format_date = '/'.join(date_list) # YYYY/mm/YYYYmmdd
         # url_front = current_url[0:current_url.rfind('/', 1) + 1]
         url_end = current_url.split('/')[-1].split('.')[-1]
         url_list = current_url.split('/')
