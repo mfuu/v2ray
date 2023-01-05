@@ -37,13 +37,10 @@ class update():
                 if item['update']:
                     print(f'Finding available update for ID{id}')
                     new_url = update.change_date(id,current_url,item['update'])
-                    if new_url == current_url:
-                        print(f'No available update for ID{id}\n')
-                    else:
+                    if new_url != current_url:
                         item['url'] = new_url
-                        print(f'ID{id} url updated to {new_url}\n')
             except KeyError:
-                print(f'{id} Url not changed! Please define update method.')
+                print(f'{current_url} not changed! Please define update method.')
 
             updated_list = json.dumps(raw_list, sort_keys=False, indent=2, ensure_ascii=False)
             file = open(list_path, 'w', encoding='utf-8')
@@ -65,8 +62,10 @@ class update():
             url_list.pop()
 
         new_url = '/'.join(url_list) + '/' + format_date + '.' + url_end
-        
+        print(f'check url update: {new_url}\n')
         if url_updated(new_url):
+            print(f'{current_url} updated to {new_url}\n')
             return new_url
         else:
+            print(f'No available update for {current_url}\n')
             return current_url
