@@ -1,0 +1,107 @@
+# This is a basic workflow to help you get started with Actions
+# 配置参考 https://github.com/alanbobs999/TopFreeProxies
+
+name: Auto update
+
+# Controls when the workflow will run
+
+on:
+  schedule:
+    # Executed at 5:00, 13:00, 21:00 o'clock every day
+    # 表达式生成  https://crontab.guru/
+    - cron:  '0 5,13,21 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  auto_update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+    - name: Cache
+      uses: actions/cache@v2
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Timezone
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+    - name: Requirements
+      run: |
+        pip install -r ./utils/requirements
+    - name: SubMerge
+      run: |
+        wget -O subconverter.tar.gz https://github.com/tindy2013/subconverter/releases/latest/download/subconverter_linux64.tar.gz
+        tar -zxvf subconverter.tar.gz -C ./
+        chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
+        python ./utils/sub_merge.py
+    - name: GitMerge
+      run: |                 
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git pull origin master
+        git add ./merge
+        git add v2ray
+        git add clash.yaml
+        git commit -m "merge: $(date '+%Y-%m-%d %H:%M:%S') 合并节点"
+    - name: Push
+      uses:  ad-m/github-push-action@master
+      with:
+        branch: master
+    - name: GitCommit
+      run: |                 
+        git pull origin master
+        git add list.json
+        (git commit -m "update: $(date '+%Y-%m-%d %H:%M:%S') 更新链接") || true
+    - name: GitPush
+      uses:  ad-m/github-push-action@master
+      with:
+        branch: master
+
+  to_gitee:
+    needs: [auto_update]
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v1
+      - name: 'Mirror to gitee'
+        uses: pixta-dev/repository-mirroring-action@v1
+        with:
+          target_repo_url: git@gitee.com:mfuu/v2ray.git
+          ssh_private_key: ${{ secrets.MIRROR }}
+          
+  to_gitlab:
+    needs: [auto_update]
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v1
+      - name: 'Mirror to gitlab'
+        uses: pixta-dev/repository-mirroring-action@v1
+        with:
+          target_repo_url: git@gitlab.com:mfuu/v2ray.git
+          ssh_private_key: ${{ secrets.MIRROR }}
+
+  update_branch:
+    needs: [to_gitee, to_gitlab]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: UpdateBranch
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git pull origin master
+          git checkout --orphan latest_branch
+          git add -A
+          git commit -am "update: $(date '+%Y-%m-%d %H:%M:%S')"
+          git branch -D master
+          git branch -m master
+          git push -f origin master
