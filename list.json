@@ -1,0 +1,123 @@
+[
+  {
+    "id": 0,
+    "remark": "nodefree.org",
+    "site": "https://github.com/Fukki-Z/nodefree",
+    "url": "https://nodefree.org/dy/2024/12/20241225.txt",
+    "update": "Y/m/Y-m-d",
+    "enabled": false
+  },
+  {
+    "id": 1,
+    "remark": "pojiezhiyuanjun/freev2",
+    "site": "https://github.com/pojiezhiyuanjun/freev2",
+    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1225.txt",
+    "update": "m-d",
+    "enabled": false
+  },
+  {
+    "id": 2,
+    "remark": "freefq/free",
+    "site": "https://github.com/freefq/free",
+    "url": "https://raw.githubusercontent.com/freefq/free/master/v2",
+    "enabled": true
+  },
+  {
+    "id": 3,
+    "remark": "colatiger/v2ray-nodes",
+    "site": "https://github.com/colatiger/v2ray-nodes",
+    "url": "https://proxy.huwo.club/v2ray.txt",
+    "enabled": false
+  },
+  {
+    "id": 4,
+    "remark": "vxiaov/free_proxies",
+    "site": "https://github.com/vxiaov/free_proxies",
+    "url": "https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt",
+    "enabled": true
+  },
+  {
+    "id": 5,
+    "remark": "kxswa/k",
+    "site": "https://github.com/kxswa/k",
+    "url": "https://raw.githubusercontent.com/kxswa/k/k/base64",
+    "enabled": false
+  },
+  {
+    "id": 6,
+    "remark": "Pawdroid/Free-servers",
+    "site": "https://github.com/Pawdroid/Free-servers",
+    "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+    "enabled": true
+  },
+  {
+    "id": 7,
+    "remark": "anaer/Sub",
+    "site": "https://github.com/anaer/Sub",
+    "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
+    "enabled": false
+  },
+  {
+    "id": 8,
+    "remark": "alanbobs999/TopFreeProxies",
+    "site": "https://github.com/alanbobs999/TopFreeProxies",
+    "url": "https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity",
+    "enabled": false
+  },
+  {
+    "id": 9,
+    "remark": "Jsnzkpg/Jsnzkpg",
+    "site": "https://github.com/Jsnzkpg/Jsnzkpg",
+    "url": "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
+    "enabled": false
+  },
+  {
+    "id": 10,
+    "remark": "wrfree/free",
+    "site": "https://github.com/wrfree/free",
+    "url": "https://raw.githubusercontent.com/wrfree/free/main/v2",
+    "enabled": false
+  },
+  {
+    "id": 11,
+    "remark": "aiboboxx/v2rayfree",
+    "site": "https://github.com/aiboboxx/v2rayfree",
+    "url": "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
+    "enabled": true
+  },
+  {
+    "id": 12,
+    "remark": "barry-far/V2ray-Configs",
+    "site": "https://github.com/barry-far/V2ray-Configs",
+    "url": "https://raw.githubusercontent.com/barry-far/V2ray-Configs/refs/heads/main/All_Configs_Sub.txt",
+    "enabled": false
+  },
+  {
+    "id": 13,
+    "remark": "free18/v2ray",
+    "site": "https://github.com/free18/v2ray",
+    "url": "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt",
+    "enabled": true
+  },
+  {
+    "id": 14,
+    "remark": "mahdibland/V2RayAggregator",
+    "site": "https://github.com/mahdibland/V2RayAggregator",
+    "url": "https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt",
+    "enabled": false
+  },
+  {
+    "id": 15,
+    "remark": "pmsub",
+    "site": "https://sub.pmsub.me/base64",
+    "url": "https://sub.pmsub.me/base64",
+    "enabled": false
+  },
+  {
+    "id": 16,
+    "remark": "Misaka-blog/chromego_merge",
+    "site": "https://github.com/Misaka-blog/chromego_merge",
+    "url": "https://raw.githubusercontent.com/Misaka-blog/chromego_merge/refs/heads/main/sub/base64.txt",
+    "enabled": false
+  }
+]
