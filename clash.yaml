@@ -1,0 +1,95 @@
+proxies:
+- {name: 🇨🇦CA-51.79.102.253-00, server: 51.79.102.253, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /IOebhLMhl1CTbFHbL95myfRX2, tls: false, ws-headers: {Host: 51.79.102.253}}
+- {name: 🇨🇭CH-204.136.10.115-01, server: 204.136.10.115, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
+- {name: 🇱🇹LT-45.87.175.28-02, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+- {name: 🇺🇸US-172.233.128.126-03, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
+- {name: 🇨🇦CA-79.127.233.170-04, server: 79.127.233.170, port: 989, type: ssr, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, obfs: plain, protocol: origin, obfsparam: , protoparam: , group: SSRProvider}
+- {name: 🏁RELAY-172.67.200.13-05, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /azumase.ren, tls: true, ws-headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}
+- {name: 🇩🇪DE-45.150.32.13-06, server: 45.150.32.13, port: 14628, type: ss, cipher: chacha20-ietf-poly1305, password: DKyRdoqQIebdKZVYs5GzW8}
+- {name: 🇩🇪DE-45.144.54.33-07, server: 45.144.54.33, port: 34803, type: ss, cipher: chacha20-ietf-poly1305, password: LiHQX9cDbdooBHlIg0eiqQ}
+- {name: 🏁RELAY-172.67.200.13-08, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /azumase.ren, tls: true, ws-headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}
+- {name: 🇳🇱NL-213.109.147.242-09, server: 213.109.147.242, port: 62685, type: ss, cipher: chacha20-ietf-poly1305, password: VpKABcOpNNA0l5G2AVOmw8}
+- {name: 🏁RELAY-188.114.98.18-10, server: 188.114.98.18, port: 80, type: vmess, uuid: d2866d01-d76d-4a08-8bae-04fb3c502588, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 188.114.98.18}}
+- {name: 🇩🇪DE-147.45.178.200-11, server: 147.45.178.200, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf}
+- {name: 🇫🇷FR-81.19.137.222-12, server: 81.19.137.222, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf}
+- {name: 🇳🇱NL-164.92.156.41-13, server: 164.92.156.41, port: 24206, type: ss, cipher: chacha20-ietf-poly1305, password: zI7kiNZ0UfV9cXB73a4nRD}
+- {name: 🏁RELAY-102.132.188.3-14, server: 102.132.188.3, port: 80, type: vmess, uuid: e95e35ba-f874-4eb3-9600-4dbd6d099f4e, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 102.132.188.3}}
+- {name: 🏁RELAY-104.17.223.18-15, server: 104.17.223.18, port: 80, type: vmess, uuid: ff2d17c6-0d96-4801-a270-9dba8334f8c6, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 104.17.223.18}}
+- {name: 🇩🇪DE-185.177.229.245-16, server: 185.177.229.245, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
+- {name: 🏁RELAY-104.17.176.171-17, server: npmjs.com, port: 8080, type: vmess, uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /nasnet/cdn, tls: false, ws-headers: {Host: ke7hz36ewz-4515017473.mashallahbet.com}}
+- {name: 🏁RELAY-104.17.223.175-18, server: 104.17.223.175, port: 8080, type: vmess, uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /nasnet/cdn, tls: false, ws-headers: {Host: 104.17.223.175}}
+- {name: 🏁RELAY-104.17.176.171-19, server: 104.17.176.171, port: 8080, type: vmess, uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /nasnet/cdn, tls: false, ws-headers: {Host: 104.17.176.171}}
+- {name: 🇩🇪DE-46.101.245.131-20, server: 46.101.245.131, port: 44354, type: ss, cipher: chacha20-ietf-poly1305, password: 9RviNa4tscjcmCB408vLSg}
+- {name: 🇺🇸US-107.151.182.253-21, server: 107.151.182.253, port: 8080, type: ssr, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, obfs: plain, protocol: origin, obfsparam: , protoparam: , group: SSRProvider}
+- {name: 🇫🇷FR-62.210.88.22-22, server: 62.210.88.22, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: WDavBimDmH2QLxljf5PSO1}
+- {name: 🇬🇧GB-46.226.163.225-23, server: 46.226.163.225, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb}
+- {name: 🏁RELAY-188.114.99.18-24, server: 188.114.99.18, port: 80, type: vmess, uuid: d2866d01-d76d-4a08-8bae-04fb3c502588, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 188.114.99.18}}
+- {name: 🇺🇸US-104.167.197.25-25, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11}
+- {name: 🇫🇷FR-107.191.63.241-26, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c}
+- {name: 🏁RELAY-104.21.20.162-27, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /horsen, tls: true, ws-headers: {Host: orvps2.horsenma.net}}
+- {name: 🏁RELAY-104.26.13.54-28, server: time.is, port: 80, type: vmess, uuid: 66ddd790-10ed-4a16-b334-0b7e3577b5b7, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: time.is}}
+- {name: 🏁RELAY-108.165.216.241-29, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /dabai.in, tls: false, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}}
+- {name: 🏁RELAY-103.116.7.241-30, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /dabai.in, tls: false, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}}
+- {name: 🇭🇰HK-1.65.250.206-31, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: ocbc.com}}
+- {name: 🇨🇳CN-36.151.194.29-32, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: v33.heduian.link}}
+- {name: 🇦🇶NOWHERE-0.0.0.0-33, server: iepl.huli168.com, port: 17273, type: ss, cipher: aes-256-gcm, password: Gjv3t0WDY17HUakw+2DpeA==}
+- {name: 🇨🇳CN-36.151.194.29-34, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: baidu.com}}
+- {name: 🇸🇬SG-188.253.4.3-35, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: "79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35"}
+- {name: 🇦🇶NOWHERE-0.0.0.0-36, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /dabai.in, tls: false, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}}
+- {name: 🇰🇷KR-3.38.186.95-37, server: 3.38.186.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 🇨🇳CN-36.151.194.29-38, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: baidu.com}}
+- {name: 🇭🇰HK-103.103.245.158-39, server: 103.103.245.158, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fcauejypbltqt%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls", type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0}
+- {name: 🇭🇰HK-1.65.207.207-40, server: b5ca534f-t02f40-t1iztx-1ryup.hk.p5pv.com, port: 80, type: vmess, uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: broadcastlv.chat.bilibili.com}}
+- {name: 🇨🇳CN-36.151.192.238-41, server: 36.151.192.238, port: 2078, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇨🇳CN-36.151.192.238-42, server: 36.151.192.238, port: 446, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇭🇰HK-8.217.129.229-43, server: 8.217.129.229, port: 3423, type: vmess, uuid: 97a3cf03-66d6-4d65-aa3e-33eb6c709be7, alterId: 0, cipher: auto, skip-cert-verify: true, network: kcp, ws-path: /, tls: false, ws-headers: {Host: 8.217.129.229}}
+- {name: 🇯🇵JP-137.220.191.40-44, server: 137.220.191.40, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fdchlbvrbbotc%3Bhost%3Djp7v1.lingjfjkm002.com%3Btls", type: ss, cipher: aes-256-gcm, password: 823e135ed103}
+- {name: 🇨🇳CN-183.240.211.97-45, server: cn01.efan8867801.xyz, port: "8766/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507232129723-vNgaz226QA.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-36.151.251.7-46, server: 36.151.251.7, port: 40937, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇨🇳CN-36.151.251.7-47, server: 36.151.251.7, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇯🇵JP-47.74.57.10-48, server: 47.74.57.10, port: 37257, type: vmess, uuid: cb774883-1c2f-4b8a-8637-828f356e0c76, alterId: 0, cipher: auto, skip-cert-verify: true, network: kcp, ws-path: /, tls: false, ws-headers: {Host: 47.74.57.10}}
+- {name: 🇰🇷KR-218.237.185.230-49, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: "qwerREWQ@@"}
+- {name: 🇨🇳CN-36.151.251.7-50, server: 36.151.251.7, port: 25618, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇨🇳CN-36.151.251.7-51, server: 36.151.251.7, port: 44123, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇭🇰HK-45.149.92.71-52, server: sg.mjt000.com, port: 443, type: trojan, password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf, sni: sg.mjt000.com, skip-cert-verify: true}
+- {name: 🏁RELAY-91.193.58.0-53, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, ws-path: "h=%2F", skip-cert-verify: true}
+- {name: 🇨🇳CN-183.240.211.97-54, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507232129723-vNgaz226QA.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-36.151.251.7-55, server: 36.151.251.7, port: 3596, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇨🇳CN-36.151.251.7-56, server: 36.151.251.7, port: 32962, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇦🇶NOWHERE-0.0.0.0-57, server: iepl.huli168.com, port: 17273, type: ss, cipher: aes-256-gcm, password: Gjv3t0WDY17HUakw+2DpeA==}
+- {name: 🇻🇳VN-103.186.154.19-58, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"}
+- {name: 🇨🇳CN-36.151.194.29-59, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: v5.heduian.link}}
+- {name: 🇵🇾PY-38.165.233.93-60, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 🏁RELAY-195.85.59.95-61, server: csgo.com, port: 80, type: vmess, uuid: dac2d4dd-9a4d-4eb0-92a6-028532caed52, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: "/profile/telegram@ssrsub", tls: false, ws-headers: {Host: cdn-node-oss-99.paofu.de}}
+- {name: 🏁RELAY-195.85.59.99-62, server: fastcup.net, port: 80, type: vmess, uuid: dac2d4dd-9a4d-4eb0-92a6-028532caed52, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: "/profile/telegram@ssrsub", tls: false, ws-headers: {Host: cdn-node-oss-99.paofu.de}}
+- {name: 🇨🇳CN-36.151.194.29-63, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: v8.heduian.link}}
+- {name: 🏁RELAY-108.165.216.241-64, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /dabai.in, tls: false, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}}
+- {name: 🇳🇱NL-51.15.17.169-65, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 🇨🇳CN-36.151.194.29-66, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: v33.heduian.link}}
+- {name: 🏁RELAY-195.85.59.246-67, server: pubg.ac, port: 80, type: vmess, uuid: dac2d4dd-9a4d-4eb0-92a6-028532caed52, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: "/profile/telegram@ssrsub", tls: false, ws-headers: {Host: cdn-node-oss-99.paofu.de}}
+- {name: 🇦🇶NOWHERE-0.0.0.0-68, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /dabai.in, tls: false, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}}
+- {name: 🇳🇴NO-185.213.23.226-69, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 🇺🇸US-154.3.8.151-70, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
+- {name: 🏁RELAY-103.116.7.241-71, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /dabai.in, tls: false, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}}
+- {name: 🏁RELAY-103.169.142.241-72, server: 103.169.142.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /dabai.in, tls: false, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}}
+- {name: 🇨🇳CN-36.151.194.29-73, server: v37.heduian.link, port: 30837, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: v37.heduian.link}}
+- {name: 🇰🇷KR-3.38.186.95-74, server: 3.38.186.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 🇨🇳CN-36.151.194.29-75, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: baidu.com}}
+- {name: 🇭🇰HK-103.103.245.158-76, server: 103.103.245.158, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dnewroot2v1.dsjsapp.com%3Bpath%3D%2Fcauejypbltqt%3Bmux%3Dmux%3D4%3B%3B", type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0}
+- {name: 🇭🇰HK-1.65.207.207-77, server: b5ca534f-t02f40-t1iztx-1ryup.hk.p5pv.com, port: 80, type: vmess, uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: broadcastlv.chat.bilibili.com}}
+- {name: 🇨🇳CN-36.151.192.238-78, server: 36.151.192.238, port: 2078, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇨🇳CN-36.151.192.238-79, server: 36.151.192.238, port: 446, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇯🇵JP-137.220.191.40-80, server: 137.220.191.40, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Djp7v1.lingjfjkm002.com%3Bpath%3D%2Fdchlbvrbbotc%3Bmux%3Dmux%3D4%3B%3B", type: ss, cipher: aes-256-gcm, password: 823e135ed103}
+- {name: 🇨🇳CN-183.240.211.97-81, server: cn01.efan8867801.xyz, port: "8766/?plugin=simple-obfs%3Bobfs%3Dhttp%3Bobfs-host%3D202507232129723-vNgaz226QA.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-36.151.251.7-82, server: 36.151.251.7, port: 40937, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇨🇳CN-36.151.251.7-83, server: 36.151.251.7, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇰🇷KR-218.237.185.230-84, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: "qwerREWQ@@"}
+- {name: 🇨🇳CN-36.151.251.7-85, server: 36.151.251.7, port: 25618, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇨🇳CN-36.151.251.7-86, server: 36.151.251.7, port: 44123, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇭🇰HK-45.149.92.71-87, server: sg.mjt000.com, port: 443, type: trojan, password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf, sni: sg.mjt000.com, skip-cert-verify: true}
+- {name: 🏁RELAY-91.193.58.0-88, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, skip-cert-verify: true}
+- {name: 🇨🇳CN-183.240.211.97-89, server: cn01.efan8867801.xyz, port: "8774/?plugin=simple-obfs%3Bobfs%3Dhttp%3Bobfs-host%3D202507232129723-vNgaz226QA.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-36.151.251.7-90, server: 36.151.251.7, port: 3596, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇨🇳CN-36.151.251.7-91, server: 36.151.251.7, port: 32962, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+- {name: 🇦🇶NOWHERE-0.0.0.0-92, server: iepl.huli168.com, port: 17273, type: ss, cipher: aes-256-gcm, password: Gjv3t0WDY17HUakw+2DpeA==}
+- {name: 🇻🇳VN-103.186.154.19-93, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"}
