@@ -1,0 +1,139 @@
+[
+  {
+    "id": 0,
+    "remark": "nodefree.me",
+    "site": "https://github.com/Fukki-Z/nodefree",
+    "url": "https://nodefree.githubrowcontent.com/2026/01/20260123.txt",
+    "update": "(\\d{4})/(\\d{2})/(\\d{8})",
+    "enabled": true
+  },
+  {
+    "id": 1,
+    "remark": "freefq/free",
+    "site": "https://github.com/freefq/free",
+    "url": "https://raw.githubusercontent.com/freefq/free/master/v2",
+    "enabled": false
+  },
+  {
+    "id": 2,
+    "remark": "vxiaov/free_proxies",
+    "site": "https://github.com/vxiaov/free_proxies",
+    "url": "https://github.com/vxiaov/free_proxies/raw/refs/heads/main/clash/clash.provider.yaml",
+    "enabled": true
+  },
+  {
+    "id": 3,
+    "remark": "Pawdroid/Free-servers",
+    "site": "https://github.com/Pawdroid/Free-servers",
+    "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "remark": "anaer/Sub",
+    "site": "https://github.com/anaer/Sub",
+    "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
+    "enabled": false
+  },
+  {
+    "id": 5,
+    "remark": "Jsnzkpg/Jsnzkpg",
+    "site": "https://github.com/Jsnzkpg/Jsnzkpg",
+    "url": "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
+    "enabled": false
+  },
+  {
+    "id": 6,
+    "remark": "wrfree/free",
+    "site": "https://github.com/wrfree/free",
+    "url": "https://raw.githubusercontent.com/wrfree/free/main/v2",
+    "enabled": false
+  },
+  {
+    "id": 7,
+    "remark": "aiboboxx/v2rayfree",
+    "site": "https://github.com/aiboboxx/v2rayfree",
+    "url": "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
+    "enabled": false
+  },
+  {
+    "id": 8,
+    "remark": "free18/v2ray",
+    "site": "https://github.com/free18/v2ray",
+    "url": "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt",
+    "enabled": false
+  },
+  {
+    "id": 9,
+    "remark": "mahdibland/V2RayAggregator",
+    "site": "https://github.com/mahdibland/V2RayAggregator",
+    "url": "https://github.com/mahdibland/V2RayAggregator/raw/refs/heads/master/Eternity.txt",
+    "enabled": false
+  },
+  {
+    "id": 10,
+    "remark": "Misaka-blog/chromego_merge",
+    "site": "https://github.com/Misaka-blog/chromego_merge",
+    "url": "https://raw.githubusercontent.com/Misaka-blog/chromego_merge/refs/heads/main/sub/base64.txt",
+    "enabled": true
+  },
+  {
+    "id": 11,
+    "remark": "ripaojiedian/freenode",
+    "site": "https://github.com/ripaojiedian/freenode",
+    "url": "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub",
+    "enabled": true
+  },
+  {
+    "id": 12,
+    "remark": "peasoft/NoMoreWalls",
+    "site": "https://github.com/peasoft/NoMoreWalls",
+    "url": "https://github.com/peasoft/NoMoreWalls/raw/refs/heads/master/list.txt",
+    "enabled": false
+  },
+  {
+    "id": 13,
+    "remark": "https://node.freeclashnode.com",
+    "site": "https://node.freeclashnode.com",
+    "url": "https://node.freeclashnode.com/uploads/2026/03/0-20260301.txt",
+    "update": "(\\d{4})/(\\d{2})/0-(\\d{8})",
+    "enabled": true
+  },
+  {
+    "id": 14,
+    "remark": "https://node.freeclashnode.com",
+    "site": "https://node.freeclashnode.com",
+    "url": "https://node.freeclashnode.com/uploads/2026/02/1-20260227.txt",
+    "update": "(\\d{4})/(\\d{2})/1-(\\d{8})",
+    "enabled": true
+  },
+  {
+    "id": 15,
+    "remark": "http://v2raynode.cczzuu.top",
+    "site": "https://v2raynode.net/archives/category/freenode",
+    "url": "http://v2raynode.cczzuu.top/node/20260228-v2ray.txt",
+    "update": "(\\d{8})-v2ray",
+    "enabled": true
+  },
+  {
+    "id": 16,
+    "remark": "ermaozi/get_subscribe",
+    "site": "https://github.com/ermaozi/get_subscribe",
+    "url": "https://github.com/ermaozi/get_subscribe/raw/refs/heads/main/subscribe/v2ray.txt",
+    "enabled": true
+  },
+  {
+    "id": 17,
+    "remark": "Flikify/Free-Node",
+    "site": "https://github.com/Flikify/Free-Node",
+    "url": "https://github.com/Flikify/Free-Node/raw/refs/heads/main/v2ray.txt",
+    "enabled": true
+  },
+  {
+    "id": 18,
+    "remark": "free-nodes/v2rayfree",
+    "site": "https://github.com/free-nodes/v2rayfree",
+    "url": "https://github.com/free-nodes/v2rayfree/raw/refs/heads/main/v2",
+    "enabled": false
+  }
+]
