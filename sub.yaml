@@ -1,0 +1,101 @@
+proxies:
+- {name: 🇮🇹IT-202.50.253.72-000, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🇮🇹IT-202.50.253.36-001, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🏁RELAY-104.21.41.92-002, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, tls: true, ws-headers: {Host: guanwang.awsno.com}}
+- {name: 🇩🇪DE-185.220.100.168-003, server: 185.220.100.168, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, ws-path: "h=%2Fassignment", skip-cert-verify: true}
+- {name: 🇯🇵JP-45.32.52.173-004, server: 45.32.52.173, port: 8886, type: trojan, password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437, sni: 45.32.52.173, skip-cert-verify: true}
+- {name: 🇰🇷KR-43.108.103.167-005, server: 43.108.103.167, port: 123, type: vmess, uuid: 35aa0fda-175a-4aec-c468-0231dee1a121, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 45.32.52.173}}
+- {name: 🇩🇪DE-63.180.254.10-006, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 🇭🇰HK-219.77.96.182-007, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: v10.hdacd.com}}
+- {name: 🇳🇱NL-147.90.41.75-008, server: 7d0a2gz0-7a0c.aws-agent.net, port: 12103, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.40.76-009, server: 7d0a2gz0-7a0c.aws-agent.net, port: 10115, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.76-010, server: 7d0a2gz0-7a0c.aws-agent.net, port: 12107, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.76-011, server: 7d0a2gz0-7a0c.aws-agent.net, port: 12102, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.95-012, server: 63182sh8-4d7b.aws-agent.net, port: 10125, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.40.96-013, server: 63182sh8-4d7b.aws-agent.net, port: 10125, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.75-014, server: 7d0a2gz0-7a0c.aws-agent.net, port: 10135, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.40.96-015, server: 63182sh8-4d7b.aws-agent.net, port: 10155, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.96-016, server: 63182sh8-4d7b.aws-agent.net, port: 12122, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.75-017, server: 7d0a2gz0-7a0c.aws-agent.net, port: 12142, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.40.96-018, server: 63182sh8-4d7b.aws-agent.net, port: 11171, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇺🇸US-147.90.234.133-019, server: tinkered-pennies-puppies.freesocks.work, port: "443?", type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2}
+- {name: 🏁RELAY-104.18.23.63-020, server: www.ignitelimit.com, port: 443, type: trojan, password: humanity, skip-cert-verify: true}
+- {name: 🇭🇰HK-212.192.13.91-021, server: 212.192.13.91, port: "30129?", type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5}
+- {name: 🇦🇶NOWHERE-0.0.0.0-022, server: chengbai02.ascwt179.com, port: "13223?", type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO}
+- {name: 🇬🇧GB-82.38.31.35-023, server: 82.38.31.35, port: "443?", type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+- {name: "🇫🇷FR-"2001:bc8:32d7:225::3"-024", server: "2001:bc8:32d7:225::3", port: 55009, type: vmess, uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /0zNW56sF, tls: false, ws-headers: {Host: "2001:bc8:32d7:225::3"}}
+- {name: 🇲🇾MY-20.17.157.215-025, server: cindy52.ceoiii.com, port: 36803, type: vmess, uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, tls: false, ws-headers: {Host: ajax.microsoft.com}}
+- {name: 🇺🇸US-4.148.117.156-026, server: cindy50.ceoiii.com, port: 36801, type: vmess, uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, tls: false, ws-headers: {Host: ajax.microsoft.com}}
+- {name: 🏁RELAY-172.67.174.10-027, server: blackshadow.dpdns.org, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: blackshadow.dpdns.org, skip-cert-verify: true}
+- {name: 🇺🇸US-4.148.117.156-028, server: cindy50.ceoiii.com, port: 36801, type: vmess, uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, tls: false, ws-headers: {Host: ajax.microsoft.com}}
+- {name: 🇮🇷IR-94.182.88.61-029, server: 94.182.88.61, port: 2078, type: vmess, uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 94.182.88.61}}
+- {name: 🇷🇺RU-176.32.35.51-030, server: 176.32.35.51, port: "10910?", type: ss, cipher: aes-256-gcm, password: 895b4b796a357570}
+- {name: 🇷🇺RU-176.32.35.51-031, server: 176.32.35.51, port: "10916?", type: ss, cipher: aes-256-gcm, password: 895b4b796a357570}
+- {name: 🇷🇺RU-195.133.5.207-032, server: 195.133.5.207, port: "20188?", type: ss, cipher: aes-256-gcm, password: bdb313adf74c2ede}
+- {name: 🇳🇱NL-185.246.152.159-033, server: 185.246.152.159, port: 443, type: vmess, uuid: 5f72f180-b21b-4b7a-8484-240759012604, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /5f72f180-b21b-4b7a-8484-240759096785, tls: true, ws-headers: {Host: apjhdggyx.com}}
+- {name: 🏁RELAY-104.16.174.36-034, server: 104.16.174.36, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.225-035, server: 104.18.152.225, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.219-036, server: 104.18.152.219, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.73-037, server: 104.18.152.73, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.26.14.137-038, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.152-039, server: 104.18.152.152, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.22.63-040, server: 104.18.22.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.133-041, server: 104.18.152.133, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-86.38.214.205-042, server: 86.38.214.205, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.77-043, server: 104.18.152.77, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.140-044, server: 104.18.152.140, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.16.174.44-045, server: 104.16.174.44, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.204-046, server: 104.18.152.204, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.16.174.117-047, server: 104.16.174.117, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.208-048, server: 104.18.152.208, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-172.67.74.2-049, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.26.15.137-050, server: 104.26.15.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.17.111.4-051, server: 104.17.111.4, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.26.14.137-052, server: 104.26.14.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.16.73.213-053, server: 104.16.73.213, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.26.14.137-054, server: 104.26.14.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.26.14.137-055, server: 104.26.14.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.17.111.4-056, server: 104.17.111.4, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.229-057, server: 104.18.152.229, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.187-058, server: 104.18.152.187, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🇺🇸US-216.24.57.7-059, server: 216.24.57.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.143-060, server: 104.18.152.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.207-061, server: 104.18.152.207, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🇮🇷IR-2.144.21.150-062, server: 2.144.21.150, port: 2000, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🇪🇪EE-109.206.241.10-063, server: 109.206.241.10, port: 449, type: trojan, password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1, sni: russiapower.accesscam.org, skip-cert-verify: true}
+- {name: 🇳🇱NL-185.246.152.159-064, server: 185.246.152.159, port: 443, type: vmess, uuid: 5f72f180-b21b-4b7a-8484-240759012604, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /5f72f180-b21b-4b7a-8484-240759096785, tls: true, ws-headers: {Host: apjhdggyx.com}}
+- {name: 🇮🇷IR-2.144.21.112-065, server: 2.144.21.112, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.12.149-066, server: 104.18.12.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-8.6.112.6-067, server: 8.6.112.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🇦🇶NOWHERE-0.0.0.0-068, server: renderer-stream-2-62.mirra.now, port: 443, type: vmess, uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /api/v1/gpu-stream/socket, tls: true, ws-headers: {Host: renderer-stream-2-62.mirra.now}}
+- {name: 🏁RELAY-104.16.174.37-069, server: 104.16.174.37, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-188.114.97.7-070, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.16.174.44-071, server: 104.16.174.44, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.26.15.137-072, server: 104.26.15.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.21.8.107-073, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🇩🇪DE-88.198.82.150-074, server: 88.198.82.150, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.18.152.133-075, server: 104.18.152.133, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🏁RELAY-104.16.174.101-076, server: 104.16.174.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true}
+- {name: 🇩🇪DE-185.220.100.168-077, server: 185.220.100.168, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-20.229.108.11-078, server: c3.nastuh.link, port: "443?", type: ss, cipher: chacha20-ietf-poly1305, password: y7KeRTzmH0vXT2kp}
+- {name: 🇦🇶CLOUDFRONT-3.169.173.56-079, server: www.true.th, port: 80, type: vmess, uuid: a150d554-e962-4632-829f-ee583ada3f95, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /htun, tls: false, ws-headers: {Host: d7pu5mzr9c4b0.cloudfront.net}}
+- {name: "🇫🇷FR-"2001:bc8:32d7:1a9::2"-080", server: "2001:bc8:32d7:1a9::2", port: 23388, type: vmess, uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999-newpac/fanqiang, tls: false, ws-headers: {Host: "2001:bc8:32d7:1a9::2"}}
+- {name: 🇭🇰HK-47.83.247.150-081, server: 47.83.247.150, port: 800, type: vmess, uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /x, tls: false, ws-headers: {Host: down-cdn.dingtalk.com}}
+- {name: 🇭🇰HK-8.210.108.58-082, server: u2frxj0g13vdi0wo.v.3dns.vip, port: 443, type: vmess, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /ws-vmess, tls: true, ws-headers: {Host: U2FRxj0G13vDI0Wo.v.3dns.vip}}
+- {name: 🏁RELAY-104.21.93.88-083, server: hk2.998998.best, port: 443, type: vmess, uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /asivewritten, tls: true, ws-headers: {Host: server15.9966338.xyz}}
+- {name: 🏁RELAY-172.67.70.92-084, server: yg1.ygkkk.dpdns.org, port: 443, type: vmess, uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm, tls: true, ws-headers: {Host: jmp1.907737.xyz}}
+- {name: 🏁RELAY-104.18.9.83-085, server: www.calmlunch.com, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true}
+- {name: 🇮🇹IT-202.50.253.36-086, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🇮🇹IT-202.50.253.54-087, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🇮🇹IT-202.50.253.45-088, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🇮🇹IT-202.50.253.18-089, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🇮🇹IT-202.50.253.63-090, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🏁RELAY-172.64.147.77-091, server: eu3.998998.best, port: 443, type: vmess, uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /aiaiai, tls: true, ws-headers: {Host: server40.9966338.xyz}}
+- {name: 🇮🇹IT-202.50.253.90-092, server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🇮🇹IT-202.50.253.81-093, server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🇮🇹IT-202.50.253.72-094, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🇮🇹IT-202.50.253.99-095, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🏁RELAY-104.18.25.120-096, server: www.pleadcourt.org, port: 443, type: trojan, password: humanity, ws-path: "h=%2Fassignment", skip-cert-verify: true}
+- {name: 🇮🇹IT-202.50.253.27-097, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🇺🇸US-165.215.250.14-098, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, ws-path: "h=%2Fassignment", skip-cert-verify: true}
+- {name: 🏁RELAY-192.0.2.1-099, server: 192.0.2.1, port: 1, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
